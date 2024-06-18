@@ -1,8 +1,10 @@
-var topics = ["Output", "Statements", "Variables", "XX"];
+/* Functions for syntax.html */
+
+var topics = ["Output", "Statements", "Variables", "TOPIC_4"];
 var contents = [
-    "../views/syntax-output.html",
-    "", 
-    "", 
+    "syntax_subviews/syntax-output.html",
+    "syntax_subviews/syntax-statements.html", 
+    "syntax_subviews/syntax-variables.html", 
     ""
 ];
 
@@ -42,11 +44,18 @@ function replace_html(id, html) {
 }
 
 function create_object(id, url) {
+    // Clear the content of the element first
+    var element = document.getElementById(id);
+    element.innerHTML = "";
+
+    // Create the object tag
     const objectTag = document.createElement('object');
     objectTag.type = 'text/html';
     objectTag.data = url;
     objectTag.width = '100%';
     objectTag.height = '400px';
 
-    document.getElementById(id).appendChild(objectTag);
+    // Append the object tag to the element
+    element.appendChild(objectTag);
 }
+
