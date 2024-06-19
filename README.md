@@ -1,11 +1,11 @@
-# javascript_beg2adv
+# Website To Show Progress Of Learning JavaScript
 
 ## Goal
-- Learn JavaScript from scratch to an advance level using online tutorials.
+- Show steps of learning JavaScript from scratch to an advance level using online tutorials.
 
 ## Motivation: 
 - Learn a new programming language.
-- To be able to develop personal portfolio website.
+- To be able to develop personal portfolio/website.
 - Needed skill for a job.
 
 

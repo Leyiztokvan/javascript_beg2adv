@@ -1,10 +1,11 @@
 /* Functions for syntax.html */
-
 var topics = ["Output", "Statements", "Variables", "TOPIC_4"];
 var contents = [
-    "syntax_subviews/syntax-output.html",
-    "syntax_subviews/syntax-statements.html", 
-    "syntax_subviews/syntax-variables.html", 
+    // Note: The paths are relative to the location of topics-grid.html,
+    // not the location of the topics-grid.js file. 
+    "syntax-subviews/syntax-output.html",
+    "syntax-subviews/syntax-statements.html",
+    "syntax-subviews/syntax-variables.html",
     ""
 ];
 
