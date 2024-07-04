@@ -8,6 +8,8 @@
 - To be able to develop personal portfolio website.
 - Needed skill for a job.
 
+## Progress:
+- Check progress by visting this website [leyiztokvan](https://leyiztokvan.github.io/)
 
 ## Tutorials:
 - [**Learn JavaScript by W3Schools**](https://www.w3schools.com/js/default.asp)
